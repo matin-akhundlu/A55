@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\MyFirstProject\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj",
+      "projectUniqueName": "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\Home_Works\\MyFirstProject\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj",
       "projectName": "MyFirstProject",
-      "projectPath": "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\MyFirstProject\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj",
+      "projectPath": "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\Home_Works\\MyFirstProject\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj",
       "packagesPath": "C:\\Users\\matin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\MyFirstProject\\MyFirstProject\\MyFirstProject\\obj\\",
+      "outputPath": "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\Home_Works\\MyFirstProject\\MyFirstProject\\MyFirstProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
