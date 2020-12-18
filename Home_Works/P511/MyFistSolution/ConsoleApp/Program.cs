@@ -11,19 +11,23 @@ namespace MyFirstConsoleApp
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Please push the ENTER.");
+            Console.WriteLine("Press any key to start registry.");
+
             Console.ReadLine();
 
-            Console.WriteLine("Enter your first name:");
+            Console.Write("Enter your first name:");
             String name = Console.ReadLine();
 
-            Console.WriteLine("Enter your last name:");
+            Console.Write("Enter your last name:");
             string surname = Console.ReadLine();
 
-            Console.WriteLine($"Welcome. {name} {surname}. Registration is completed. Thank you for the chosen us.");
-            Console.ReadLine();
+            Console.Write("Enter date of your birthday.:");
+            string birthday = Console.ReadLine();
 
-            Console.WriteLine("BYE");
+            Console.WriteLine($"Welcome. {name} {surname} {birthday}. ");
+            Console.WriteLine("Registration is completed. Thank you for the chosen us.");
+
+            Console.WriteLine("If you want to close this page, please press any key.");
 
 
             Console.ReadKey();
