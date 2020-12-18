@@ -1,6 +1,0 @@
-C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\MyFirstConsoleApp\obj\Debug\MyFirstConsoleApp.csproj.CoreCompileInputs.cache
-C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\MyFirstConsoleApp\bin\Debug\MyFirstConsoleApp.exe.config
-C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\MyFirstConsoleApp\bin\Debug\MyFirstConsoleApp.exe
-C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\MyFirstConsoleApp\bin\Debug\MyFirstConsoleApp.pdb
-C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\MyFirstConsoleApp\obj\Debug\MyFirstConsoleApp.exe
-C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\MyFirstConsoleApp\obj\Debug\MyFirstConsoleApp.pdb
