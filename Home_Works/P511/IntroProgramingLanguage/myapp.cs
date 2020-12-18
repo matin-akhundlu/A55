@@ -5,6 +5,7 @@ namespace MyFirstApplication {
         static void Main(string[] args) {
 	/* My First Program in C# */
         Console.WriteLine("Hey Guys!");
+	Console.WriteLine("Be Safe!");
 	Console.ReadKey();
         }
     }

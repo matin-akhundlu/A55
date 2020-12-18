@@ -1,0 +1,7 @@
+C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\ConsoleApp2\obj\Debug\ConsoleApp2.csprojAssemblyReference.cache
