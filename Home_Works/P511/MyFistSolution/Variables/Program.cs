@@ -9,9 +9,7 @@ namespace Variables
 
 
             Console.WriteLine();
-
-   
-            
+           
             
             
             Console.ReadKey();

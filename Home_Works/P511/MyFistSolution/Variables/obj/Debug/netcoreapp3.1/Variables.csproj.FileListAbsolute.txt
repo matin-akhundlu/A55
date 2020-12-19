@@ -4,7 +4,6 @@ C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\Vari
 C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\Variables\bin\Debug\netcoreapp3.1\Variables.runtimeconfig.dev.json
 C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\Variables\bin\Debug\netcoreapp3.1\Variables.dll
 C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\Variables\bin\Debug\netcoreapp3.1\Variables.pdb
-C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\Variables\obj\Debug\netcoreapp3.1\Variables.csprojAssemblyReference.cache
 C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\Variables\obj\Debug\netcoreapp3.1\Variables.AssemblyInfoInputs.cache
 C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\Variables\obj\Debug\netcoreapp3.1\Variables.AssemblyInfo.cs
 C:\Users\matin\OneDrive\Desktop\Code_Academy\Home_Works\P511\MyFistSolution\Variables\obj\Debug\netcoreapp3.1\Variables.csproj.CoreCompileInputs.cache
