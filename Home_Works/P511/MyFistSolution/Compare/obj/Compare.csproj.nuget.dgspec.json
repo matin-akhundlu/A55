@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\Home_Works\\P511\\MyFistSolution\\Variables\\Variables.csproj": {}
+    "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\Home_Works\\P511\\MyFistSolution\\Compare\\Compare.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\Home_Works\\P511\\MyFistSolution\\Variables\\Variables.csproj": {
+    "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\Home_Works\\P511\\MyFistSolution\\Compare\\Compare.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\Home_Works\\P511\\MyFistSolution\\Variables\\Variables.csproj",
-        "projectName": "Variables",
-        "projectPath": "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\Home_Works\\P511\\MyFistSolution\\Variables\\Variables.csproj",
+        "projectUniqueName": "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\Home_Works\\P511\\MyFistSolution\\Compare\\Compare.csproj",
+        "projectName": "Compare",
+        "projectPath": "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\Home_Works\\P511\\MyFistSolution\\Compare\\Compare.csproj",
         "packagesPath": "C:\\Users\\matin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\Home_Works\\P511\\MyFistSolution\\Variables\\obj\\",
+        "outputPath": "C:\\Users\\matin\\OneDrive\\Desktop\\Code_Academy\\Home_Works\\P511\\MyFistSolution\\Compare\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
