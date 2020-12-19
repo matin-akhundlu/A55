@@ -1,0 +1,27 @@
+using System;
+
+namespace Variables
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int a = 100;
+
+            // double amont = 5.5;
+            decimal amount = (decimal)5.5M;
+
+            int age = 55;
+
+            string name = "Matin";
+            string surname = "Akhundlu";
+
+            bool militaryStatus = false;
+          
+            
+            
+            Console.ReadKey();
+        }
+    }
+}

@@ -41,6 +41,22 @@ namespace DataTypes
                 $"\nCts Type Name={b.GetType().Name}");
 
 
+
+            decimal c = 4;
+
+            decimal sizeOfDecimal= sizeof(decimal);
+            
+
+
+            Console.WriteLine($"----Decimal----" +
+                $"\nsize={sizeOfDecimal} byte" +
+                $"\nvalue={c}" +
+                $"\nMinValue={decimal.MinValue}" +
+                $"\nMaxValue={decimal.MaxValue}" +
+                $"\nDefault={default(decimal)}" +
+                $"\nCts Type Name={c.GetType().Name}");
+
+
             Console.ReadKey();
         }
     }
