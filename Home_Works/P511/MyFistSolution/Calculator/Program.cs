@@ -7,6 +7,7 @@ namespace Calculator
         static void Main(string[] args)
         {
             int a, b, c, d, e, f, m, n, t, k, p;
+            double g, s, r;
 
             a = 50;
             b = 5;
@@ -15,6 +16,9 @@ namespace Calculator
             m = 3;
             n = 17;
             k = 130;
+            r = 13;
+            s = 0.55;
+
             
 
 
@@ -22,7 +26,7 @@ namespace Calculator
             d = e - b;
             t = m * f - n;
             p = k / f;
-            
+            g = r + s * 1.0;
 
 
 
@@ -30,6 +34,7 @@ namespace Calculator
             Console.WriteLine($"{e}-{b}={d}");
             Console.WriteLine($"{m}*{f}-{n}={t}");
             Console.WriteLine($"{k}/{f}={p}");
+            Console.WriteLine($"{r}+{s}={g}");
 
             Console.ReadKey();
 
