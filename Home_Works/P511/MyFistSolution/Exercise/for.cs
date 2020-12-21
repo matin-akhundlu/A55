@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace Variables
 {
@@ -7,7 +7,7 @@ namespace Variables
         static void Main(string[] args)
         {
 
-          
+           
         }
     }
 }
