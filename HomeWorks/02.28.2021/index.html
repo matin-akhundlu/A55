@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="Unicode">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+   
+    <form method="Get">
+        <link rel="stylesheet" href="./css/style.css">
+        <label for="firstname">Name:</label><br/>
+        <input type="text" name="name" minlength="3" maxlength="20" 
+        id="firstname" placeholder="type here" required/>
+        <br>
+        
+        <label for="surname">Surname:</label><br/>
+        <input type="text" name="surname" minlength="3" maxlength="20" 
+        id="surname" placeholder="type here" required/>
+        
+        <br>
+        <label for="email">Email:</label><br/>
+        <input type="email" name="email" id="email" placeholder="type here" required/>
+        <br>
+        
+        <label for="dateofbirth">DOB:</label><br/>
+        <input type="date" name="dateofbirth" minlength="7" maxlength="13" id="dateofbirth" requireds/>
+        <br>
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br/>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br/>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br/>
+        <br>
+        
+        <label for="file">Photos</label><br/>
+        <input type="file" id="file" name="file" multiple>
+        <br>
+        <br>
+        <input type="checkbox" id="checkbox" requireds/>
+        <label for="checkbox">Agree</label><br/>
+        <br>
+       
+        <label for="msg">Text</label><br/>
+        <textarea name="msg" id="msg" col="5" row="5" minlength="5" maxlength="300" 
+        autofocus requireds></textarea>
+        <br>
+        <br>
+
+        <label for="Language">Languages:</label><br/>
+        <br>
+        <select name="language" id="language">
+            <option selected value="AZE">AZE</option>
+            <option value="ENG">ENG</option>
+            <option value="RUS">RUS</option>
+        </select>
+        <br>
+        <br>
+
+        <input type="submit" value="SUBMIT"/>
+        <input type="reset" value="RESET"/>
+        <br>
+          
+        
+    </form>
+
+</body>
+</html>
