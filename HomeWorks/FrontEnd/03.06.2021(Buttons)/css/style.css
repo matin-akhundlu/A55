@@ -3,6 +3,9 @@ html {
   background-image: url(../images/13.jpg);
   background-size: cover;
 }
+p::selection {
+  background: rgba(105, 105, 105, 0.05);
+}
 
 p {
   padding: 13px 30px;
@@ -19,7 +22,7 @@ p {
   font-size: 18px;
   color: rgba(7, 27, 41, 0.55);
   text-align: justify;
-  user-select: none;
+  /* user-select: none; */
 }
 
 body {
@@ -62,14 +65,21 @@ body {
 }
 
 .btn1:hover {
-  background-color: rgba(105, 105, 253, 0.5);
+  background-image: linear-gradient(
+    to right,
+    #29323c,
+    #485563,
+    #2b5876,
+    #4e4376
+  );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 }
 
 .btn1 {
   opacity: 1;
 }
 .btn1:hover {
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 .btn2 {
@@ -94,14 +104,21 @@ body {
 }
 
 .btn2:hover {
-  background-color: rgba(238, 70, 70, 0.5);
+  background-image: linear-gradient(
+    to right,
+    #29323c,
+    #485563,
+    #2b5876,
+    #4e4376
+  );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 }
 
 .btn2 {
   opacity: 1;
 }
 .btn2:hover {
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 .btn3 {
@@ -126,12 +143,19 @@ body {
 }
 
 .btn3:hover {
-  background-color: rgba(77, 226, 64, 0.5);
+  background-image: linear-gradient(
+    to right,
+    #29323c,
+    #485563,
+    #2b5876,
+    #4e4376
+  );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 }
 
 .btn3 {
   opacity: 1;
 }
 .btn3:hover {
-  opacity: 0.9;
+  opacity: 0.7;
 }
