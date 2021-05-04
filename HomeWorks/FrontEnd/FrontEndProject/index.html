@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home ID - Just another WordPress site</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+        integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.rsp.css">
+    <link rel="stylesheet" href="css/owl.crl.css">
+</head>
+<body>
+    <header>
+        <div class="container-content">
+            <div class="row-content">
+                <div class=" ">
+                    <div class="logo">
+                        <img src="images/d-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="  ">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#" class="nav-listing">Listing</a> <i class="fas fa-chevron-down"></i>
+                                <ul class="sub-menu">
+                                    <li><a href="javascript:;" class="">Property Status <i
+                                                class="fas fa-chevron-right"></i></a> </li>
+                                    <li><a href="javascript:;" class="">Property Type <i
+                                                class="fas fa-chevron-right"></i></a> </li>
+                                    <li><a href="javascript:;" class="">Property City <i
+                                                class="fas fa-chevron-right"></i></a> </li>
+                                    <li><a href="javascript:;" class="">Province / State <i
+                                                class="fas fa-chevron-right"></i></a> </li>
+                                    <li><a href="javascript:;" class="">Property Feature <i
+                                                class="fas fa-chevron-right"></i></a> </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Agency</a></li>
+                            <li><a href="#">Agent</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#" class="nav-pages">Pages</a> <i class="fas fa-chevron-down"></i>
+                                <ul class="sub-menu">
+                                    <li><a href="javascript:;" class="">Services</a> </li>
+                                    <li><a href="javascript:;" class="">About Us</a> </li>
+                                    <li><a href="javascript:;" class="">Contact Us</a> </li>
+                                    <li><a href="javascript:;" class="">FAQs</a> </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="  ">
+                    <div class="user-system">
+                        <div class="sing-in">
+                            <button type="button" class="sign-in-modal" data-toggle="modal" data-target="#exampleModal">
+                                <i class="far fa-user-circle"></i>
+                                <span>SIGN IN</span>
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close d-block "
+                                                style="background-color: #ccb4b4!important;" data-dismiss="modal"
+                                                aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <ul class="nav nav-tabs" onclick="myFunction(event)">
+                                                <li class="nav-item">
+                                                    <a class="nav-link tab-user-registration active" data-id="1"
+                                                        style="color: black!important;" href="#">Log In</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link tab-user-registration" data-id="2"
+                                                        style="color: black!important;" href="#">Register</a>
+                                                </li>
+                                            </ul>
+                                            <div class="user-info" data-id="1">
+                                                <h2>Log In</h2>
+                                                <p class="card-text is-account">Don’t have an account yet? <a href="#"
+                                                        class="link-signup"> <u>Sign up for free</u></a>
+                                                </p>
+                                                <form class="" method="post" enctype="multipart/form-data"
+                                                    novalidate="novalidate">
+                                                    <div class="form-group">
+                                                        <input name="user_login" style="background-color:#f8f8f8"
+                                                            class="form-control" id="username"
+                                                            placeholder="Username or email address" type="text">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="input-group input-group-lg"> <input
+                                                                name="user_password" class="form-control" id="password"
+                                                                placeholder="Password" type="password">
+                                                            <div class="input-group-append">
+                                                                <span class="input-group-text border-0">
+                                                                    <i class="far fa-eye-slash"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex form-group">
+                                                        <div class="form-check pl-0">
+                                                            <label class="checkbox-label">
+                                                                <input name="remember" class="remember-me"
+                                                                    type="checkbox"> Remember me
+                                                            </label>
+                                                        </div>
+                                                        <a href="#" class="ml-auto lost-password"><u>Lost
+                                                                password</u></a>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-success btn-block">Login
+                                                    </button>
+                                                </form>
+                                            </div>
+                                            <div class="user-info d-none" data-id="2">
+                                                <h2>Sign Up</h2>
+                                                <p class="card-text">Already have an account?
+                                                    <a href="#" class="link-signup"> <u>Log in</u></a>
+                                                </p>
+                                                </p>
+                                                <form class="" method="post" enctype="multipart/form-data"
+                                                    novalidate="novalidate">
+                                                    <div class="form-group">
+                                                        <input name="user_register" style="background-color:#f8f8f8"
+                                                            class="form-control" id="username"
+                                                            placeholder="Username or email address" type="text">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="input-group input-group-lg"> <input
+                                                                name="user_password" class="form-control" id="password"
+                                                                placeholder="Password" type="password">
+                                                            <div class="input-group-append">
+                                                                <span class="input-group-text border-0">
+                                                                    <i class="far fa-eye-slash"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group control-term-condition">
+                                                        <div class="checkbox my-0">
+                                                            <label class="mb-0 checkbox-label">
+                                                                <input name="term_condition" type="checkbox"> I agree
+                                                                with your <a target="_blank" href="#">Terms
+                                                                    &amp; Conditions</a>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-success btn-block">Register
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-listing">
+                            <a href="" class="add-listing">Add listing <i class="fas fa-home"></i></a>
+                        </div>
+                        <div class="menu-bar ">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="input-area">
+            <div class="container-content">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" style="background: white!important;"><i
+                              class="fas fa-cog"></i></span>
+                    </div>
+                    <input type="text" class="form-control search-input" aria-label="Amount (to the nearest dollar)"
+                        placeholder="Enter Keyword...">
+                    <div class="input-group-append">
+                        <span class="input-group-text" style="background: white!important;"><i
+                              class="fas fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="slider">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active slide-img"
+                        style="background-image: url(./images/demo-sp1.jpg); width: 100%; height: 800px;">
+                    </div>
+                    <div class="carousel-item slide-img"
+                        style="background-image: url(./images/1.jpg); width: 100%; height: 800px;">
+                    </div>
+                    <div class="carousel-item slide-img"
+                        style="background-image: url(./images/2.jpg); width: 100%; height: 800px;">
+                    </div>
+                </div>
+                <a class="carousel-control-prev btn-prev-slide" href="#carouselExampleControls" role="button"
+                    data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next btn-next-slide" href="#carouselExampleControls" role="button"
+                    data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="cart-house-info">
+                <div class="container-content">
+                    <h1>House In Foxhall Ave, Kingston</h1>
+                    <div class="street">
+                        289 Foxhall Ave, Kingston
+                    </div>
+                    <div class="house-details-info">
+                        <div class="bath">
+                            <i class="fas fa-bed"></i>
+                            <span>3 Br</span>
+                        </div>
+                        <div class="bath">
+                            <i class="fas fa-bath"></i>
+                            <span>2 Ba</span>
+                        </div>
+                        <div class="bath">
+                            <i class="far fa-window-maximize"></i>
+                            <span>900 SqFt</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="rent-house">
+                        <div>
+                            <button class="btn-rent">FOR RENT</button>
+                            <button class="btn-featured">FEATURED</button>
+                        </div>
+                        <div class="rent-house-price">
+                            <span>
+                                <span>$550</span> / month
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="filter">
+                <div class="container-content">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="filter-section">
+                                <div class="row">
+                                    <div class="col-lg-3 ">
+                                        <div class="search-input">
+                                            <label for="">KEYWORD</label>
+                                            <input type="text" class="searchable-input" placeholder="ENTER KEYWORD..."> <i
+                                                class="fas fa-search"></i>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 ">
+                                        <div class="row">
+                                            <div class="search-status">
+                                                <label for="">STATUS</label>
+                                                <div>For Rent <i class="fas fa-sort-down"></i> </div>
+                                                <div class="border-bottom" style="opacity: .3;"></div>
+                                            </div>
+                                            <div class="search-status">
+                                                <label for="">Type</label>
+                                                <div>All type <i class="fas fa-sort-down"></i> </div>
+                                                <div class="border-bottom" style="opacity: .3;"></div>
+                                            </div>
+                                            <div class="advanced-items">
+                                                <a href="">ADVANCED <i class="fas fa-plus-circle"></i></a>
+                                            </div>
+                                            <div class="btn-searchable">
+                                                <button>Search</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="welcome-homeid">
+            <div class="container-content">
+                <div class="row">
+                    <div class="welcome-home-header">
+                        <h1>Welcome to HomeID</h1>
+                        <p>Whether you’re buying, selling or renting, we can help you move forward.</p>
+                    </div>
+                    <div class="house-info">
+                        <div class="buy-new-home">
+                            <div class="home-img">
+                                <img src="images/img-box1.png" alt="">
+                            </div>
+                            <h3>Buy a new home</h3>
+                            <p>Lorem ipsum dolor sit amet, consec <br> tetur cing elit. Suspe ndisse suscipit</p>
+                        </div>
+                    </div>
+                    <div class="house-info">
+                        <div class="buy-new-home">
+                            <div class="home-img">
+                                <img src="images/img-box2.png" alt="">
+                            </div>
+                            <h3>Sell a home</h3>
+                            <p>Lorem ipsum dolor sit amet, consec <br> tetur cing elit. Suspe ndisse suscipit</p>
+                        </div>
+                    </div>
+                    <div class="house-info">
+                        <div class="buy-new-home">
+                            <div class="home-img">
+                                <img src="images/img-box3.png" alt="">
+                            </div>
+                            <h3>Rent a home</h3>
+                            <p>Lorem ipsum dolor sit amet, consec <br> tetur cing elit. Suspe ndisse suscipit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="homeid-featured-properties">
+            <div class="container-content">
+                <div class="featured-properties">
+                    <div class="features-header">
+                        <h2>HomeID Featured Properties</h2>
+                        <p class="find-place">Find a perfect place for you.</p>
+                    </div>
+                    <button class="btn-all-properties">View all properties <i
+                            class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+                <div id="featured-carousel" class="owl-carousel owl-theme mt-3">
+                    <div class="card item" style="width: 18rem;">
+                        <img class="card-img-top" src="images/demo-sp1.jpg" alt="Card image cap">
+                        <div class="overlay-img-cover"></div>
+                        <button class="btn-featuredProperties">FEATURED</button>
+                        <button class="btn-forsale">FOR RENT</button>
+                        <div class="card-body">
+                            <h3 class="card-title luxury-villa-header">House in Foxhall Ave, Kingston</h3>
+                            <p class="card-text luxury-villa-info">289 Faxall Ave</p>
+                            <div class="luxury-details-info">
+                                <div class="bath">
+                                    <i class="fas fa-bed"></i>
+                                    <span>3 Br</span>
+                                </div>
+                                <div class="bath">
+                                    <i class="fas fa-bath"></i>
+                                    <span>2 Ba</span>
+                                </div>
+                                <div class="bath">
+                                    <i class="far fa-window-maximize"></i>
+                                    <span>900 SqFt</span>
+                                </div>
+                            </div>
+                            <div class="border-bottom"></div>
+                            <div class="featured-house-price">
+                                <span>$550</span> <span>/month</span>
+                                <div class="btn-rating">
+                                    <button class="featured-star"><i class="far fa-star"></i></button>
+                                    <button class="featured-plus"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card item" style="width: 18rem;">
+                        <img class="card-img-top" src="images/2.jpg" alt="Card image cap">
+                        <div class="overlay-img-cover"></div>
+                        <button class="btn-featuredProperties">FEATURED</button>
+                        <button class="btn-forsale">FOR RENT</button>
+                        <div class="card-body">
+                            <h3 class="card-title luxury-villa-header">Luxury Villa In Los Angeles</h3>
+                            <p class="card-text luxury-villa-info">8433 Sunset Blvd, Los Angeles</p>
+                            <div class="luxury-details-info">
+                                <div class="bath">
+                                    <i class="fas fa-bed"></i>
+                                    <span>3 Br</span>
+                                </div>
+                                <div class="bath">
+                                    <i class="fas fa-bath"></i>
+                                    <span>2 Ba</span>
+                                </div>
+                                <div class="bath">
+                                    <i class="far fa-window-maximize"></i>
+                                    <span>900 SqFt</span>
+                                </div>
+                            </div>
+                            <div class="border-bottom"></div>
+                            <div class="featured-house-price">
+                                <span>$1,250,000</span> <span>/month</span>
+                                <div class="btn-rating">
+                                    <button class="featured-star"><i class="far fa-star"></i></button>
+                                    <button class="featured-plus"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card item" style="width: 18rem;">
+                        <img class="card-img-top" src="images/3.jpg" alt="Card image cap">
+                        <div class="overlay-img-cover"></div>
+                        <button class="btn-featuredProperties">FEATURED</button>
+                        <button class="btn-forsale">FOR SALE</button>
+                        <div class="card-body">
+                            <h3 class="card-title luxury-villa-header">House in Foxhall Ave, Kingston</h3>
+                            <p class="card-text luxury-villa-info">289 Faxall Ave</p>
+                            <div class="luxury-details-info">
+                                <div class="bath">
+                                    <i class="fas fa-bed"></i>
+                                    <span>3 Br</span>
+                                </div>
+                                <div class="bath">
+                                    <i class="fas fa-bath"></i>
+                                    <span>2 Ba</span>
+                                </div>
+                                <div class="bath">
+                                    <i class="far fa-window-maximize"></i>
+                                    <span>900 SqFt</span>
+                                </div>
+                            </div>
+                            <div class="border-bottom"></div>
+                            <div class="featured-house-price">
+                                <span>$550</span> <span>/month</span>
+                                <div class="btn-rating">
+                                    <button class="featured-star"><i class="far fa-star"></i></button>
+                                    <button class="featured-plus"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card item" style="width: 18rem;">
+                        <img class="card-img-top" src="images/4.jpg" alt="Card image cap">
+                        <div class="overlay-img-cover"></div>
+                        <button class="btn-featuredProperties">FEATURED</button>
+                        <button class="btn-forsale">FOR SALE</button>
+                        <div class="card-body">
+                            <h3 class="card-title luxury-villa-header">Luxury Villa In Los Angeles</h3>
+                            <p class="card-text luxury-villa-info">8433 Sunset Blvd, Los Angeles</p>
+                            <div class="luxury-details-info">
+                                <div class="bath">
+                                    <i class="fas fa-bed"></i>
+                                    <span>3 Br</span>
+                                </div>
+                                <div class="bath">
+                                    <i class="fas fa-bath"></i>
+                                    <span>2 Ba</span>
+                                </div>
+                                <div class="bath">
+                                    <i class="far fa-window-maximize"></i>
+                                    <span>900 SqFt</span>
+                                </div>
+                            </div>
+                            <div class="border-bottom"></div>
+                            <div class="featured-house-price">
+                                <span>$1,250,000</span> <span>/month</span>
+                                <div class="btn-rating">
+                                    <button class="featured-star"><i class="far fa-star"></i></button>
+                                    <button class="featured-plus"><i class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="lifestyles">
+            <div class="lifestyle-wrapper">
+              <div class="explore-wrapper">
+                <h1>Explore New Lifestyles</h1>
+                <p>Find your next home, in any style you prefer.</p>
+              </div>
+              <div class="home-style-wrapper">
+                <div class="home-card">
+                  <div class="image-box">
+                    <img src="./images/hh-1.png" alt="" />
+                  </div>
+                  <div class="content-box">
+                    <h3>Luxury Homes</h3>
+                    <p>3 Properties</p>
+                  </div>
+                </div>
+                <div class="home-card1">
+                  <div class="image-box">
+                    <img src="./images/h2.png" alt="" />
+                  </div>
+                  <div class="content-box">
+                    <h3>Apartment</h3>
+                    <p>4 Properties</p>
+                  </div>
+                </div>
+                <div class="home-card2">
+                  <div class="image-box">
+                    <img src="./images/h3.png" alt="" />
+                  </div>
+                  <div class="content-box">
+                    <h3>Apartment</h3>
+                    <p>4 Properties</p>
+                  </div>
+                </div>
+                <div class="home-card3">
+                  <div class="image-box">
+                    <img src="./images/h4.png" alt="" />
+                  </div>
+                  <div class="content-box">
+                    <h3>Apartment</h3>
+                    <p>4 Properties</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section id="recommended-neighborhoods">
+            <div class="container-content">
+                <div class="neighborhoods">
+                    <div class="neighborhoods-header">
+                        <h2>Recommended Neighborhoods</h2>
+                        <p class="previus-search">Based on your previous search.</p>
+                    </div>
+                    <button class="btn-more-neighborhoods"> View more neighborhoods
+                         <i class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+                <div class="row">
+                    <div class="odd-image p-0 ">
+                        <div class="san-francisco-img">
+                            <a href="#" title="San-Francisco">
+                                <img src="images/prop-c1.jpg" alt="San-Francisco">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="even-images">
+                        <div class="new-york-image">
+                            <a href="#">
+                                <img src="images/prop-c2.jpg" alt="" srcset="">
+                            </a>
+                        </div>
+                        <div class="san-diego-image">
+                            <a href="#">
+                                <img src="images/prop-c3.jpg" alt="" srcset="">
+                            </a>
+                        </div>
+                        <div class="los-angeles-image">
+                            <a href="#">
+                                <img src="images/prop-c4.jpg" alt="" srcset="">
+                            </a>
+                        </div>
+                        <div class="kingston-image">
+                            <a href="#">
+                                <img src="images/prop-c5.jpg" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="love-working">
+            <div class="container-content">
+                <div class="row">
+                    <div class="love-working-header">
+                        <h1>Why Do People Love Working With HomeID?</h1>
+                        <p>Whether you’re buying, selling or renting, we can help you move forward.</p>
+                    </div>
+                    <div id="feedbacks-carousel" class="owl-carousel mt-3">
+                        <div class="feedbacks-item">
+                            <div class="users-feedbacks">
+                                <div class="user-info">
+                                    <img src="images/u1.jpg" alt="" srcset="">
+                                    <div class="user-name">
+                                        <h4> Lydia Wise </h4>
+                                        <p>Manchester</p>
+                                    </div>
+                                </div>
+                                <div class="user-content">
+                                    <p>
+                                        "Working with @homeID is like having a <br> family member who can fix everything.
+                                        They <br> know what
+                                        you need, exactly when you need <br> it."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feedbacks-item">
+                            <div class="users-feedbacks">
+                                <div class="user-info">
+                                    <img src="images/u2.jpg" alt="" srcset="">
+                                    <div class="user-name">
+                                        <h4> Olive Erickson </h4>
+                                        <p>New Mexico</p>
+                                    </div>
+                                </div>
+                                <div class="user-content">
+                                    <p>
+                                        "Working with @homeID is like having a <br> family member who can fix everything.
+                                        They <br> know what
+                                        you need, exactly when you need <br> it."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feedbacks-item">
+                            <div class="users-feedbacks">
+                                <div class="user-info">
+                                    <img src="images/u3.jpg" alt="" srcset="">
+                                    <div class="user-name">
+                                        <h4> Karl Knight </h4>
+                                        <p>Washington, D.C</p>
+                                    </div>
+                                </div>
+                                <div class="user-content">
+                                    <p>
+                                        "Working with @homeID is like having a <br> family member who can fix everything.
+                                        They <br> know what
+                                        you need, exactly when you need <br> it."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feedbacks-item">
+                            <div class="users-feedbacks">
+                                <div class="user-info">
+                                    <img src="images/u2.jpg" alt="" srcset="">
+                                    <div class="user-name">
+                                        <h4> Olive Erickson </h4>
+                                        <p>New Mexico</p>
+                                    </div>
+                                </div>
+                                <div class="user-content">
+                                    <p>
+                                        "Working with @homeID is like having a <br> family member who can fix everything.
+                                        They <br> know what
+                                        you need, exactly when you need <br> it."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feedbacks-item">
+                            <div class="users-feedbacks">
+                                <div class="user-info">
+                                    <img src="images/u3.jpg" alt="" srcset="">
+                                    <div class="user-name">
+                                        <h4> Karl Knight </h4>
+                                        <p>Washington, D.C</p>
+                                    </div>
+                                </div>
+                                <div class="user-content">
+                                    <p>
+                                        "Working with @homeID is like having a <br> family member who can fix everything.
+                                        They <br> know what
+                                        you need, exactly when you need <br> it."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feedbacks-item">
+                            <div class="users-feedbacks">
+                                <div class="user-info">
+                                    <img src="images/u1.jpg" alt="" srcset="">
+                                    <div class="user-name">
+                                        <h4> Lydia Wise </h4>
+                                        <p>Manchester</p>
+                                    </div>
+                                </div>
+                                <div class="user-content">
+                                    <p>
+                                        "Working with @homeID is like having a <br> family member who can fix everything.
+                                        They <br> know what
+                                        you need, exactly when you need <br> it."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="new-articles">
+            <div class="container-content">
+                <div class="row">
+                    <div class="article-header">
+                        <h2>New & Articles</h2>
+                        <p class="checkout-article">Check Out Recent News & Articles</p>
+                    </div>
+                    <div id="article-carousel" class="owl-carousel owl-theme mt-3">
+                        <div class="card item" style="width: 18rem; cursor: pointer;">
+                            <div class="article-img">
+                                <img class="card-img-top" src="images/art1.jpg" alt="Card image cap">
+                                <div class="article-img-overlay"></div>
+                                <button class="btn-my_home">MY HOME</button>
+                                <div class="article-title">
+                                    <span class="article-date">July 24, 2020</span>
+                                    <p>Modern apartment adjacent</p>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text article-info">
+                                    Massa tempor nec feugiat nisl <br> pretium. Egestas fringilla <br> phasellus faucibus scelerisque                              
+                                </p>
+                                <a href="#" class="btn-article-readMore">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="card item" style="width: 18rem; cursor: pointer;">
+                            <div class="article-img">
+                                <img class="card-img-top" src="images/art2.jpg" alt="Card image cap">
+                                <div class="article-img-overlay"></div>
+                                <button class="btn-my_home">MY HOME</button>
+                                <div class="article-title">
+                                    <span class="article-date">July 24, 2020</span>
+                                    <p>Modern apartment adjacent</p>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text article-info">
+                                    Massa tempor nec feugiat nisl <br> pretium. Egestas fringilla <br> phasellus faucibus scelerisque                                
+                                </p>
+                                <a href="#" class="btn-article-readMore">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="card item" style="width: 18rem; cursor: pointer;">
+                            <div class="article-img">
+                                <img class="card-img-top" src="images/art3.jpg" alt="Card image cap">
+                                <div class="article-img-overlay"></div>
+                                <button class="btn-my_home">MY HOME</button>
+                                <div class="article-title">
+                                    <span class="article-date">July 24, 2020</span>
+                                    <p>Modern apartment adjacent</p>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text article-info">
+                                    Massa tempor nec feugiat nisl <br> pretium. Egestas fringilla <br> phasellus faucibus scelerisque
+                                </p>
+                                <a href="#" class="btn-article-readMore">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="card item" style="width: 18rem; cursor: pointer;">
+                            <div class="article-img">
+                                <img class="card-img-top" src="images/art4.jpg" alt="Card image cap">
+                                <div class="article-img-overlay"></div>
+                                <button class="btn-my_home">MY HOME</button>
+                                <div class="article-title">
+                                    <span class="article-date">July 24, 2020</span>
+                                    <p>Modern apartment adjacent</p>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text article-info">
+                                    Massa tempor nec feugiat nisl <br> pretium. Egestas fringilla <br> phasellus faucibus scelerisque   
+                                </p>
+                                <a href="#" class="btn-article-readMore">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="border-bottom mt-5"></div>
+        </section>
+        <section id="adds">
+                <div class="container-content">
+                    <div class="row">
+                        <div id="adds-carousel" class="owl-carousel owl-theme mt-3">
+                            <img src="images/a1.png" alt="" srcset="">
+                            <img src="images/a2.png" alt="" srcset="">
+                            <img src="images/a3.png" alt="" srcset="">
+                            <img src="images/a4.png" alt="" srcset="">
+                            <img src="images/a5.png" alt="" srcset="">
+                            <img src="images/a6.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+        <footer>
+            <div class="container-content">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="homeid-privacy-info">
+                            <img src="images/d-logo.png" alt="">
+                        </div>
+                        <div class="privacy-nav">
+                            <ul>
+                                <li><a href="">TERM OF USE</a></li>
+                                <li><a href="">PRIVACY POLICY</a></li>
+                                <li><a href="">CONTACT SUPPORT</a></li>
+                                <li><a href="">CAREERS</a></li>
+                                <li><a href="">FAQS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul class="social-networks">
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                            <li><i class="fab fa-linkedin"></i></li>
+                            <li><i class="fab fa-instagram"></i></li>
+                        </ul>
+                        <p>© 2021 homeID. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/owl.crl.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
